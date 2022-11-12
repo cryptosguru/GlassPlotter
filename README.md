@@ -5,11 +5,6 @@
 ## Description
 GlassPlotter is a desktop application to utilize commercial optical glass catalogs.  It features to provide a great variety of functional plots with good-looking graphics.  It hopes to be useful for diverse optical engineers.
 
-## Getting Started 
-
-### Prebuilt Binaries
-The prebuilt binaries can be downloaded from [Release page](https://github.com/heterophyllus/glassplotter/releases/latest).
-
 ### Glass Catalogs
 This application reads AGF/XML files distributed elsewhere, most of which are freely available.
 
@@ -27,22 +22,6 @@ This application computes refractive index relative to air(relative refractive i
 
 When you find a slight difference between official data and that of this application,
 check the environment temperature setting (File->Preference). With the temperature value set to the same as that of the glass supplier, the calculated refractive index should be the same value.
-
-### Wiki
-See also [Wiki](https://github.com/heterophyllus/glassplotter/wiki) for further information.
-
-
-## Development
-
-### Dependencies
-|Library|Description|
-|---|---|
-|[Qt](https://www.qt.io)|GUI library|
-|[QCustomPlot](https://www.qcustomplot.com)|Graph plotting library|
-|[spline](https://github.com/ttk592/spline)|Cubic spline interpolation library|
-|[Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) | Template library for linear algebra|
-|[pugixml](https://github.com/zeux/pugixml)|Simple XML parser|
-
 
 ### Building from Source
 All of the dependencies except Qt itself have been already included in this repository.
